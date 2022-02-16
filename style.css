@@ -39,13 +39,14 @@ a {
 .logo img {
     width: 100px;
     height: auto;
+    border-radius: 50px;
 }
 
 .main {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 64px 144px;
+    padding: 12px 144px 64px;
     font-size: 18px;
     color: #E5E7EB;
     gap: 48px;
@@ -88,8 +89,50 @@ button:hover {
 
 }
 
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    padding-bottom: 108px;
+}
+
+
+.info {
+    max-width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info img {
+    width: 160px;
+    border-radius: 8px;
+}
+
+.info .text {
+    text-align: center;
+    font-size: 12px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
 .footer {
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding: 0px 24px;
 }
+
