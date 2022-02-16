@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap');
 
-body {
+html, body {
     height: 100vh;
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -70,7 +70,6 @@ a {
 button {
     background-color: #3882F6;
     color: white;
-    border-style: none;
     padding: 8px 32px;
     font-weight: bold;
     border-radius: 8px;
@@ -86,7 +85,6 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .title {
@@ -103,6 +101,7 @@ button:hover {
     justify-content: flex-start;
     gap: 24px;
     padding-bottom: 108px;
+    flex-wrap: wrap;
 }
 
 
@@ -111,6 +110,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 12px;
 }
 
 .info img {
@@ -126,13 +126,50 @@ button:hover {
 .quote {
     background-color: #E5E7EB;
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 100;
     font-style: italic;
+    padding: 48px 144px;
+}
+
+.by {
+    text-align: right;
+    font-weight: bold;
+    padding-top: 16px;
+    font-style: normal;
+}
+
+.cta {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 800px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    padding: 24px;
+    margin: 48px 24px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.box .text {
+    flex: 1;
+    gap: 4px;
 }
 
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 24px;
 }
+
 
